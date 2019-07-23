@@ -85,3 +85,15 @@ main {
 .storie .article-title{
   font-size:  1.1rem;
 }
+
+.all-stories {
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
