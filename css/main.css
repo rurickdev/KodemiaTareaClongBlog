@@ -1,5 +1,5 @@
 * {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
 
@@ -8,28 +8,54 @@ body {
   padding: 0;
 }
 
-header {
-  padding: 0.5rem;
-}
-
 img {
   width: 100%;
+}
+
+.flex {
+  display: flex;
 }
 
 .logo {
   width: auto;
   height: 1.8rem;
+  display: block;
+  margin: 1rem;
 }
 
 .fixed {
   width: 100%;
   position: fixed;
   background-color: #ffffff;
-  border-bottom: 1px solid #999999;
 }
 
-.sub-bar {
-  margin-top: 3.2rem;
-  padding: 0.5rem;
-  color: #666666;
+.keyword-div {
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  padding: 1rem;
+  font-size: 1.15rem;
+  color: #888888;
+}
+
+.mdi:hover {
+  cursor: pointer;
+}
+
+.nav-drawer {
+  color: #888888;
+  width: 70%;
+  padding-top: 10rem;
+  /* display: none; */
+}
+
+.nav-drawer ul {
+  list-style: none;
+}
+
+.nav-drawer-list li{
+  padding: 0.75rem;
+}
+
+main {
+  padding-top: 7.2rem;
 }
