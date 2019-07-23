@@ -71,18 +71,18 @@ main {
 .outstanding-stories {
   padding: 1rem;
 }
-.storie:nth-of-type(2){
+.outstanding:nth-of-type(2){
   border-top: 1px solid #888888;
   margin-top: 0.5rem;
 }
-.storie:nth-of-type(3){
+.outstanding:nth-of-type(3){
   border-top: 1px solid #888888;
   margin-top: 0.5rem;
 }
-.storie .article-theme{
+.outstanding .article-theme{
   font-size: 0.9rem;
 }
-.storie .article-title{
+.outstanding .article-title{
   font-size:  1.1rem;
 }
 
@@ -95,5 +95,21 @@ main {
   margin-right: 1rem;
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+.stories-wrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.storie {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #888888;
+}
+.storie-date-theme{
+  font-size: 0.9rem;
+}
+.storie-title {
+  font-size: 1.2rem;;
 }
 
