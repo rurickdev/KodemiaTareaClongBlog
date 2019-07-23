@@ -106,6 +106,9 @@ main {
   padding-bottom: 1rem;
   border-bottom: 1px solid #888888;
 }
+.storie:hover{
+  cursor: pointer;
+}
 .storie-date-theme{
   font-size: 0.9rem;
 }
@@ -113,3 +116,21 @@ main {
   font-size: 1.2rem;;
 }
 
+.btn.blue {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: blue;
+  height: 4rem;
+}
+.btn.blue:hover{
+  cursor: pointer;
+}
+.btn.blue > div {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  width: 12rem;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
