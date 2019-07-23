@@ -45,17 +45,43 @@ img {
   color: #888888;
   width: 70%;
   padding-top: 10rem;
-  /* display: none; */
+  display: none;
 }
-
 .nav-drawer ul {
   list-style: none;
 }
-
 .nav-drawer-list li{
   padding: 0.75rem;
 }
 
 main {
   padding-top: 7.2rem;
+}
+.main-article-text {
+  margin: 1rem;
+  border-bottom: 1px solid #888888;
+}
+.article-theme {
+  font-size: 0.9rem;
+}
+.article-title {
+  font-size: 1.5rem;
+}
+
+.outstanding-stories {
+  padding: 1rem;
+}
+.storie:nth-of-type(2){
+  border-top: 1px solid #888888;
+  margin-top: 0.5rem;
+}
+.storie:nth-of-type(3){
+  border-top: 1px solid #888888;
+  margin-top: 0.5rem;
+}
+.storie .article-theme{
+  font-size: 0.9rem;
+}
+.storie .article-title{
+  font-size:  1.1rem;
 }
