@@ -88,7 +88,6 @@ main {
 
 .all-stories {
   border-top: 1px solid #888888;
-  border-bottom: 1px solid #888888;
   padding-top: 4rem;
   padding-bottom: 4rem;
   margin-left: 1rem;
@@ -104,7 +103,7 @@ main {
 .storie {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #888888;
+  border-top: 1px solid #888888;
 }
 .storie:hover{
   cursor: pointer;
@@ -117,8 +116,7 @@ main {
 }
 
 .btn.blue {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
   background-color: blue;
   height: 4rem;
 }
@@ -133,4 +131,29 @@ main {
   width: 12rem;
   transform: translateY(-50%);
   color: #ffffff;
+}
+
+footer {
+  background-color: #fff;
+  margin: 1rem;
+  color: #888888;
+}
+.social {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #888888;
+}
+.social > *{
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+footer > .logo { 
+  margin-left: 0rem;
+}
+.about > a {
+  margin-right: 1rem;
+}
+
+.mdi {
+  color: #000
 }
