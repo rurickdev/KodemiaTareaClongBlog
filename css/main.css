@@ -121,7 +121,7 @@ main {
 
 .btn.blue {
   margin: 1rem;
-  background-color: blue;
+  background-color: #3367d6;
   height: 4rem;
 }
 .btn.blue:hover{
