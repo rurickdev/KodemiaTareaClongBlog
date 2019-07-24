@@ -1,192 +1,163 @@
 * {
-  font-family: "Roboto", sans-serif;
-  color: #131418
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  border-bottom: 1px solid #999999;
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
 }
 
 .logo {
-  margin: 16px;
-  height: 50px;
+  width: auto;
+  height: 1.8rem;
+  display: block;
+  margin: 1rem;
 }
 
-#main-nav {
-  height: 75px;
-  font-size: 150%;
-  box-shadow: 2px 2px 2px #999999;
-  margin: 0px;
-}
-
-#main-nav .sections{
-  list-style: none;
-  display: flex;
-  padding: 0px;
-}
-
-#main-nav .sections li{
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  padding: 0px;
-  margin: 16px;
-  color: #666666;
-}
-
-#main-nav .sections li:hover{
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  padding: 0px;
-  margin: 16px;
-  color: #131418;
-}
-
-li.active {
-  border-bottom: 2px solid #0D47A1;
-}
-
-.separator {
-  width: 40%;
-}
-
-.btn{
+.fixed {
+  width: 100%;
+  position: fixed;
   background-color: #ffffff;
-  border: none;
+}
+
+.keyword-div {
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  padding: 1rem;
+  font-size: 1.15rem;
+  color: #888888;
+}
+/* ToDo hacer funcional el habmbuerguer menu */
+/* .hamburguer-menu {
+
+} */
+
+.mdi:hover {
   cursor: pointer;
-  font-size: 150%
 }
 
-.btn.blue-text:hover {
-  color: #0D47A1;
+.nav-drawer {
+  color: #888888;
+  width: 70%;
+  padding-top: 10rem;
+  display: none;
+}
+.nav-drawer ul {
+  list-style: none;
+}
+.nav-drawer-list li{
+  padding: 0.75rem;
 }
 
-.grid-container.outstanding {
-  margin: 18px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+main {
+  padding-top: 7.2rem;
+}
+.main-article-text {
+  margin: 1rem;
+  border-bottom: 1px solid #888888;
+}
+.article-theme {
+  font-size: 0.9rem;
+}
+.article-title {
+  font-size: 1.5rem;
 }
 
-.one {
-  grid-column: 1;
-  grid-row: 1/5;
+.outstanding-stories {
+  padding: 1rem;
+}
+.outstanding:nth-of-type(2){
+  border-top: 1px solid #888888;
+  margin-top: 0.5rem;
+}
+.outstanding:nth-of-type(3){
+  border-top: 1px solid #888888;
+  margin-top: 0.5rem;
+}
+.outstanding .article-theme{
+  font-size: 0.9rem;
+}
+.outstanding .article-title{
+  font-size:  1.1rem;
 }
 
-.two {
-  grid-column: 5;
-  grid-row: 1;
-  font-size: 1.5em;
+.all-stories {
+  border-top: 1px solid #888888;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
-.three {
-  grid-column: 5;
-  grid-row: 2;
-  font-size: 2.5em;
+.stories-wrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-
-.four {
-  grid-column: 5;
-  grid-row: 3;
+.storie {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #888888;
 }
-
-.five {
-  grid-column:5;
-  grid-row: 4;
+.storie:hover{
+  cursor: pointer;
 }
-
-.grid-container.popular {
-  margin: 18px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 10px;
+.storie-date-theme{
+  font-size: 0.9rem;
 }
-
-.pop {
-  margin: auto;
-}
-
-.pop > p {
-  font-size: 1.25em;
-}
-
-.pop > p ~ p {
-  font-size: 2em;
-}
-
-.stories-section {
-  margin: 60px;
-}
-
-.header-stories {
-  font-size: 3em;
-}
-
-.story-container {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-top: 1px solid #333333;
-}
-
-.story-container > .story-date {
-  font-size: 1.25em;
-  color: #333333;
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
-}
-
-.story-container > .story-title {
-  font-size: 2.5em;
-  color: #333333;
-  grid-column: 1 / 4;
-  grid-row: 1 / 3;
-}
-
-.story-container > .story-img {
-  grid-column: 4 / 5;
-  grid-row: 1 / 3;
+.storie-title {
+  font-size: 1.2rem;;
 }
 
 .btn.blue {
-  background-color: #0D47A1;
-  width: 80%;
-  height: 75px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 1rem;
+  background-color: blue;
+  height: 4rem;
+}
+.btn.blue:hover{
+  cursor: pointer;
+}
+.btn.blue > div {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  width: 12rem;
+  transform: translateY(-50%);
   color: #ffffff;
 }
 
 footer {
-  margin-top: 60px;
-  margin-right: 75px;
-  margin-left: 75px;
-  margin-bottom: 75px;
-  color: #666666;
+  background-color: #fff;
+  margin: 1rem;
+  color: #888888;
+}
+.social {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #888888;
+}
+.social > *{
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+footer > .logo { 
+  margin-left: 0rem;
+}
+.about > a {
+  margin-right: 1rem;
 }
 
-.logo-text {
-  font-size: 2em;
-  color: #666666;
-}
-
-.about-link {
-  font-size: 1em;
-  color: #666666;
-  margin: 15px;
-}
-
-.btn.help > * {
-  font-size: 0.75em;
-  color: #666666;
+.mdi {
+  color: #000
 }
